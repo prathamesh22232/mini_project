@@ -1,0 +1,97 @@
+/* General Styling */
+.body-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+}
+
+/* Animated Heading */
+.ml2 {
+  font-weight: 900;
+  font-size: 3.5em;
+  color: black;
+  margin-top: 20px;
+  display: inline-block;
+  animation: animateText 2s ease-in-out forwards;
+}
+
+/* Keyframes for Animated Heading */
+@keyframes animateText {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+/* Subheading */
+.subheading {
+  font-size: 1.2em;
+  margin: 10px 0 20px;
+  color: black;
+}
+
+/* Search Bar */
+.search-container {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 1em;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  width: 300px;
+  outline: none;
+  margin-right: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: black;
+}
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Banner Styling */
+.banner {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+/* Cards Section */
+.cards-section {
+  margin-top: 30px;
+}
